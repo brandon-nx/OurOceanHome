@@ -1,0 +1,156 @@
+<html>
+
+<head>
+	<title>Our Ocean Home</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+<!-- Navbar and Logo (sit on top) Section -->
+<nav class="navbar">
+    <img class="logo" src="logo.png">
+    <div class="buttons" id="buttonlist">
+        <a href="#home"">HOME</a>
+        <a href="#problem"">PROBLEM</a>
+        <a href="#importance">IMPORTANCE</a>
+        <a href="#solution">SOLUTION</a>
+        <a href="#ourhero">OUR HERO</a>
+        <a href="#takeaction">TAKE ACTION</a>
+    </div>
+    <div class="menu" id="togglebutton">
+        <div class="menuline"></div>
+        <div class="menuline"></div>
+        <div class="menuline"></div>
+    </div>
+</nav>
+
+<!-- Header with full-size image Section-->
+<header class="header" id="home">
+    <img src="header.jpg">
+    <h1>BE  A  PART  OF<br>
+        THE  SOLUTION,<br>
+        NOT  THE  POLLUTION</h1>
+    
+    <a href="https://plasticoceans.org/donate/" target="_blank">
+    <button>Donate To Help End Water Pollution</button><br>
+    </a>
+    <a href="https://www.globalgoals.org/14-life-below-water" target="_blank">
+    <button>Goal 14: Life Below Water</button>
+    </a>
+</header>
+
+<!-- Problem Statement Section -->
+<div class="oddblock" id="problem">
+    <div class="column2grid">
+        <div class="media">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IA9O9YUbQew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="content">
+            <h1>THE PROBLEM</h1>
+            <h2> 91 % </h2>
+            <p> PLASTICS ARE NOT RECYCLE</p>
+            <p>The usage of plastic is 1 million per day approximately.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Importance of reducing water pollution Section -->
+<div class="evenblock" id="importance"> 
+<h1 class="bigtitle">Why Is It Important To Reduce Water Pollution?</h1><br>
+    <div class="column2grid-r">
+        <div class="media">
+            <img src="pic1.jpg"> 
+        </div>
+        <div class="content">
+            <h1>REASON TO STOP WATER POLLUTION</h1>
+            <p>Water pollution degrades public health.</p>
+            <p>Water pollution interupts the balance of ecosytem and the environment</p>
+            <p>Population of marine life are decreasing and is in the risk of extinction</p>
+            <p>Clean water sources are limited, people suffer from dehydration and contamination</p>
+        </div>
+    </div>
+</div>
+
+<!-- Solution or Way to Achieve Targets or Goals -->
+<div class="oddblock" id="solution"> 
+<h1 class="bigtitle">What are the Solutions?</h1><br>
+    <div class="column2grid">
+        <div class="media">
+            <img src="pic4.jpg"> 
+        </div>
+        <div class="content">
+            <h1>THE SOLUTIONS</h1>
+            <p>Reduce your plastic consumption and reuse or recycle plastic when you can.</p>
+            <p>Properly dispose of chemical cleaners, oils, and non-biodegradable items to keep them from ending up down the drain.</p>
+            <p>Maintain your car so thaty it doesn’t leak oil, antifreeze, or coolant.</p>
+            <p>If you have a yard, consider landscaping that reduces runoff and avoid applying pesticides and herbicides.</p>
+            <p>If you have a pet, be sure to pick up its excrement to prevent contamination of water sources nearby.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Heroes Who Contributed To The Goals -->
+<div class="evenblock" id="ourhero">
+    <div class="column2grid-r">
+        <div class="media">
+            <img src="pic2.jpg"> 
+        </div>
+        <div class="content">
+            <h1>OUR HERO</h1>
+            <a href="https://wwf.panda.org/discover/knowledge_hub/teacher_resources/webfieldtrips/water_pollution/" target="_blank">
+            <img src="WWF.jpg">
+            <p>World Wildlife Fund</p>
+            </a>
+
+            <a href="https://globalwaterchallenge.org/" target="_blank">
+            <img src="GWC.jpg">
+            <p>Global Water Challenge</p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- Calling People To Participate and Take Action -->
+<div class="takeaction"> 
+    <h1 class="bigtitle">TAKE ACTION NOW!!!</h1>
+    <h2 class="info">
+        We can conserve life below water together. Here you can see what you can do to contribute. Find organizations to support, information to share and some useful tips for your everyday life that can really make a difference.
+    <h2>
+</div>
+
+<div class="oddblock" id="takeaction">
+    <div class="column3grid">
+        <a href="https://www.ourplanet.com/en/voice/" target="_blank">
+        <div class="media"><img src="OP.jpg"></div>
+        <div class="content">Save the planet Earth by joining the OUR PLANET organisation to get mor einformation and participate in their activities</div>
+        </a>
+
+        <a href="https://pacinst.org/webinars/" target="_blank">
+        <div class="media"><img src="PI.jpg"></div>
+        <div class="content">Water is Life, be sure to join upcoming webinars hosted by the Pacific Institute with great intellectual speakers around the world</div>
+        </a>
+
+        <a href="https://www.worldwatercouncil.org/en/world-event" target="_blank">
+        <div class="media"><img src="WWC.jpg"></div>
+        <div class="content">Save Marine Life. World Water Council invites everyone to join the every year world event that is hold thoughout the whole year. Make sure to free up your calender!</div>
+        </a>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<footer class="bottom-footer">
+    <p>Not Copyrighted Person 2020</p>
+</footer>
+
+</body>
+
+<script>
+    const toggleButton = document.getElementById('togglebutton'); 
+    const buttonList = document.getElementById('buttonlist'); 
+    toggleButton.addEventListener('click', () => {
+        buttonlist.classList.toggle('active');
+    })
+</script>
+
+</html>
